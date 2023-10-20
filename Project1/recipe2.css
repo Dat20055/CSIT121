@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    width: 80%;
+    margin: auto;
+}
+
+h1, h2 {
+    color: black;
+}
+
+.container {
+    padding: 125px;
+    background-color: #6E7C84;
+    border: 5px solid;
+}
+
+.tiledBackground1 {
+background-image: url(../Project1/images/keyboard-collage.jpg);
+  background-size: cover;
+  width: 900px;
+  height: 450px;
+  border: 2px solid;
+}
+.tiledBackground {
+background-image: url(../Project1/images/IMG_7469.JPG);
+  background-size: cover;
+  width: 900px;
+  height: 450px;
+  border: 2px solid;
+  }
+  .tiledBackground2 {
+background-image: url(../Project1/images/chrome_WEDrEDeMXC.png);
+  background-size: cover;
+  width: 900px;
+  height: 450px;
+  border: 2px solid;
+  }

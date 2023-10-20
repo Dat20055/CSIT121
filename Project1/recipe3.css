@@ -1,0 +1,31 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    width: 90%;
+    margin: auto;
+}
+
+h1, h2 {
+    color: black;
+}
+
+.container {
+    padding: 125px;
+    background-color: #6E7C84;
+    border: 5px solid;
+}
+.tiledBackground {
+background-image: url(../Project1/images/IMG_5017.JPG);
+  background-size: contain;
+  width: 300px;
+  height: 450px;
+  border: 2px solid;
+}
+.tiledBackground2 {
+background-image: url(../Project1/images/MV5BZTY5ZjJlNjAtMDBkMy00ODEyLThhYjYtZmI3YzhhMGNiMzVkXkEyXkFqcGdeQXVyNjA5MDIyMzU@._V1_.jpg);
+  background-size: contain;
+  width: 300px;
+  height: 450px;
+  border: 2px solid;
+}
