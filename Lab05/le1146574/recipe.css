@@ -1,0 +1,64 @@
+.body {
+    background-color: #199854;
+    font-family: 'Verdana', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 1px;
+    background-size: cover;
+}
+
+.ingredients {
+    background-color: #42c780;
+    border-radius: 15px 5px;
+    text-align: center;
+    height: 22ex;
+    background-size: cover;
+
+
+}
+.instructions { background-color: #42c780;
+    border-radius: 15px;
+    text-align: center;
+    padding-left: 10px;
+   height: 16ex;
+    background-size: cover;}
+
+
+.h1 {
+    background-color: #69d39a;
+    font-size: 40px;
+    text-transform: uppercase;
+    width: 50%;
+    border-radius: 10px;
+    height: 14ex;
+    text-align: center;
+     margin: 0 auto;
+
+}
+
+.h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.Here {
+    text-align: center;
+     background-color: #42c780;
+     border-radius: 10px;
+     margin: 0 auto;
+     width: 20%;
+     height: 7ex;
+}
+.img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  height: 100ex;
+}
