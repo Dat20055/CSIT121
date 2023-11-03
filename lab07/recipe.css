@@ -1,0 +1,24 @@
+.nutritional-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.nutritional-table caption {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+
+.nutritional-table th, .nutritional-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.nutritional-table th {
+    background-color: #f2f2f2;
+}
