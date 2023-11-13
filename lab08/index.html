@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="recipe.css">
+  <title>Lab08: Form Lab (M09)</title>
+</head>
+<body>
+  <section class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="process_form.php" method="post">
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" required>
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname" required>
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+      <label>Favorite Cuisines:</label>
+      <label for="jamaican">Jamaican</label>
+      <input type="checkbox" id="Mexican" name="cuisine" value="Mexican">
+      <label for="Mexican">Mexican</label>
+      <input type="checkbox" id="German" name="cuisine" value="German">
+      <label for="German">German</label>
+      <input type="checkbox" id="Chinese" name="cuisine" value="Chinese">
+      <label for="Chinese">Chinese</label>
+      <input type="checkbox" id="Indian" name="cuisine" value="Indian">
+      <label for="Indian">Indian</label>
+      <input type="checkbox" id="Italian" name="cuisine" value="Italian">
+      <label for="Italian">Italian</label>
+      <input type="checkbox" id="jamaican" name="cuisine" value="Jamaican">
+      <label for="Thai">Thai</label>
+      <input type="checkbox" id="Thai" name="cuisine" value="Thai">
+      <label for="Japanese">Japanese</label>
+      <input type="checkbox" id="Japanese" name="cuisine" value="Japanese">
+      <br><br>
+      <label>Subscribe to Mailing List:</label>
+      <label for="yes">Yes</label>
+      <input type="radio" id="yes" name="subscribe" value="Yes">
+      <label for="no">No</label>
+      <input type="radio" id="no" name="subscribe" value="No" checked>
+      <div class="form-buttons">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </section>
+</body>
+</html>
