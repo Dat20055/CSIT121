@@ -64,18 +64,6 @@ footer {
 @media (max-width: 768px) {
   nav ul li {
     float: none;
-    width: 100% !important;
-  }
-  .art-piece img
-  {
-    cursor: zoom-in;
-  }
-  input[type=checkbox]
-  {
-    display: none;
-  }
-  input[type=checkbox]:checked ~ label > img
-  {
-    transform: scale(1.3) !important;
+    width: 100%;
   }
 }
