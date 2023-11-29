@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Art Gallery</title>
+<link rel="stylesheet" href="recipe2.css">
+<style type="text/css">
+  .art-piece img
+  {
+    cursor: zoom-in;
+  }
+  input[type=checkbox]
+  {
+    display: none;
+  }
+  input[type=checkbox]:checked ~ label > img
+  {
+    transform: scale(1.5);
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Art Gallery</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html">Jeonghyun Seok's</a></li>
+    <li><a href="index2.html">Kaneko Aru's</a></li>
+    <li><a href="index3.html">Umemaro's</a></li>
+    <li><a href="index4.html">Shigure Ui's</a></li>
+  </ul>
+</nav>
+<main>
+  <section class="featured-art">
+    <h2>Kaneko Aru's Featured Artworks</h2>
+    <div class="art-piece">
+      <input type="checkbox" name="" id="zoom_img">
+      <label for="zoom_img">
+      <img src="../fanally/picture/Kaneko Aru's1.jpg" alt="Featured Artwork 1">
+      </label>
+      <p>MAGICAL HOUSE's illustration</p>
+    </div>
+  </section>
+   <section class="featured-art">
+    <div class="art-piece">
+      <input type="checkbox" name="" id="zoom_img2">
+      <label for="zoom_img2">
+      <img src="../fanally/picture/Kaneko Aru's2.jpg" alt="Featured Artwork 2">
+    </label>
+      <p>Hatsune Miku</p>
+    </div>
+  </section>
+  <section class="featured-art">
+    <div class="art-piece">
+      <input type="checkbox" name="" id="zoom_img3">
+      <label for="zoom_img3">
+      <img src="../fanally/picture/Kaneko Aru's3.jpg" alt="Featured Artwork 3">
+    </label>
+      <p>(n/a)</p>
+    </div>
+  </section>
+  <section class="about">
+    <h2>About <a href="https://aruaru-illustration.amebaownd.com/" target="_blank">Kaneko Aru</a></h2>
+    <p>Kaneko Aru is a manga artist currently working on the series "Herami Shimai wa Docchi mo Yanderu" and "Hara peko kopeko wa niku to sumu".</p>
+  </section>
+  <section class="news">
+    <h2>Recent Art</h2>
+    <ul>
+      <li><a href="https://aruaru-illustration.amebaownd.com/posts/43379308?categoryIds=8304831#&gid=1&pid=1" target="_blank">Herami Shimai wa Docchi mo Yander's Cover</a></li>
+      <li><a href="https://aruaru-illustration.amebaownd.com/posts/41073730?categoryIds=8304831#&gid=1&pid=1" target="_blank">Hara peko kopeko wa niku to sumu's Cover</a></li>
+      <li><a href="https://aruaru-illustration.amebaownd.com/posts/44139292?categoryIds=8304832#&gid=1&pid=1" target="_blank">Purorōgu Ponchi feat. Hatsune Miku</a></li>
+    </ul>
+  </section>
+  <section class="update">
+    <h2>News about Artist</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <input type="submit" value="Send">
+    </form>
+  </section>
+</main>
+<footer>
+  <p>&copy; Copyright 2023 Art Gallery, All Rights Reserved.</p>
+</footer>
+</body>
+</html>

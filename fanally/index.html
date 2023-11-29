@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Art Gallery</title>
+<link rel="stylesheet" href="recipe.css">
+<style type="text/css">
+  .art-piece img
+  {
+    cursor: zoom-in;
+  }
+  input[type=checkbox]
+  {
+    display: none;
+  }
+  input[type=checkbox]:checked ~ label > img
+  {
+    transform: scale(1.3);
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Art Gallery</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html">Jeonghyun Seok's</a></li>
+    <li><a href="index2.html">Kaneko Aru's</a></li>
+    <li><a href="index3.html">Umemaro's</a></li>
+    <li><a href="index4.html">Shigure Ui's</a></li>
+  </ul>
+</nav>
+<main>
+  <section class="featured-art">
+    <h2>Jeonghyun Seok's Featured Artworks</h2>
+    <div class="art-piece">
+      <input type="checkbox" name="" id="zoom_img">
+      <label for="zoom_img">
+      <img src="../fanally/picture/jh-stonehouse-113.jpg" alt="Featured Artwork 1">
+    </label>
+      <p>Bustercall_OnePiece No.138 “LAST" Fanart</p>
+    </div>
+  </section>
+   <section class="featured-art">
+    <div class="art-piece">
+      <input type="checkbox" name="" id="zoom_img2">
+      <label for="zoom_img2">
+      <img src="../fanally/picture/jh-stonehouse-work5.jpg" alt="Featured Artwork 2">
+    </label>
+      <p>'Totally Awesome Hulk' Cover 2</p>
+    </div>
+  </section>
+  <section class="featured-art">
+    <div class="art-piece">
+      <input type="checkbox" name="" id="zoom_img3">
+      <label for="zoom_img3">
+      <img src="../fanally/picture/jh-stonehouse-sa.jpg" alt="Featured Artwork 3">
+    </label>
+      <p>Sailormoon</p>
+    </div>
+  </section>
+  <section class="about">
+    <h2>About <a href="https://www.instagram.com/jh_stonehouse/" target="_blank">Jeonghyun Seok</a></h2>
+    <p>Jeonghyun Seok is a South Korean illustrator who has published a 660-page book titled "Stonehouse's Anatomy." The book provides lessons on anatomy, as its name suggests.  Seok also works as an artist for MARVEL and has been awarded the Korea Manhwa content award in 2006, as well as the SPP Webtoon award in 2018.</p>
+  </section>
+  <section class="news">
+    <h2>Recent Art</h2>
+    <ul>
+      <li><a href="https://www.artstation.com/artwork/KrDPEG" target="_blank">Korean 'Y-Lab Media'</a></li>
+      <li><a href="https://www.artstation.com/artwork/xJXmBY" target="_blank">Silk</a></li>
+      <li><a href="https://www.artstation.com/artwork/v2qm9O" target="_blank">Black Widow</a></li>
+    </ul>
+  </section>
+  <section class="update">
+    <h2>News about Artist</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <input type="submit" value="Send">
+    </form>
+  </section>
+</main>
+<footer>
+  <p>&copy; Copyright 2023 Art Gallery, All Rights Reserved.</p>
+</footer>
+</body>
+</html>
