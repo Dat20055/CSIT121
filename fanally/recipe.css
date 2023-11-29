@@ -66,16 +66,4 @@ footer {
     float: none;
     width: 100%;
   }
-  .art-piece img
-  {
-    cursor: zoom-in;
-  }
-  input[type=checkbox]
-  {
-    display: none;
-  }
-  input[type=checkbox]:checked ~ label > img
-  {
-    transform: scale(1.9);
-  }
 }
